@@ -1,0 +1,43 @@
+MEU FINANCEIRO — COMO COLOCAR NO CELULAR
+=========================================
+
+Esta pasta é a versão limpa do app (sem seus dados pessoais). Ela pode ser
+publicada com segurança. Seus dados só entram depois, pelo backup, direto no
+celular.
+
+ANTES DE PUBLICAR (no computador)
+---------------------------------
+1. Abra o seu financeiro.html no computador.
+2. Vá em  Ajustes -> Exportar backup.  Vai baixar um arquivo financeiro-AAAA-MM-DD.json
+3. Envie esse arquivo para o seu celular (WhatsApp para você mesmo, Drive ou e-mail).
+   NÃO coloque esse arquivo dentro desta pasta.
+
+PUBLICAR (grátis, 2 minutos)
+----------------------------
+1. Acesse  https://app.netlify.com/drop
+2. Arraste a pasta "financeiro-app" inteira para a página.
+3. Ele cria um link, por exemplo  https://nome-aleatorio.netlify.app
+   (se criar uma conta, dá para trocar o nome do endereço).
+
+INSTALAR NO CELULAR
+-------------------
+1. Abra o link no navegador do celular.
+   Android: use o Chrome.   iPhone: use o Safari.
+2. Android: menu (3 pontinhos) -> "Instalar app" / "Adicionar à tela inicial".
+   iPhone: botão Compartilhar -> "Adicionar à Tela de Início".
+3. Abra o app pelo ícone novo.
+
+COLOCAR SEUS DADOS
+------------------
+1. No app instalado: Ajustes -> Importar backup.
+2. Escolha o arquivo .json que você mandou para o celular.
+
+DEPOIS DISSO
+------------
+- Os dados ficam só neste celular. Faça backup toda semana:
+  Ajustes -> Exportar backup, e guarde o arquivo no Drive.
+- Se trocar de celular ou limpar os dados do navegador, importe o último backup.
+- Para atualizar o app no futuro, arraste a pasta de novo no Netlify (mesmo site)
+  ou peça uma versão nova. Os dados guardados no celular continuam lá.
+- Atenção: não compartilhe o link junto com o arquivo de backup. O link sozinho
+  mostra apenas um app vazio.
