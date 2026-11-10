@@ -1,0 +1,1695 @@
+{
+    "cats":  [
+                 {
+                     "id":  "moradia",
+                     "name":  "Moradia",
+                     "color":  "#6366f1",
+                     "budget":  0,
+                     "kind":  "out"
+                 },
+                 {
+                     "id":  "alim",
+                     "name":  "Alimentação",
+                     "color":  "#f59e0b",
+                     "budget":  250,
+                     "kind":  "out"
+                 },
+                 {
+                     "id":  "transp",
+                     "name":  "Transporte",
+                     "color":  "#0ea5e9",
+                     "budget":  80,
+                     "kind":  "out"
+                 },
+                 {
+                     "id":  "assin",
+                     "name":  "Assinaturas",
+                     "color":  "#ec4899",
+                     "budget":  0,
+                     "kind":  "out"
+                 },
+                 {
+                     "id":  "tel",
+                     "name":  "Celular/Internet",
+                     "color":  "#8b5cf6",
+                     "budget":  0,
+                     "kind":  "out"
+                 },
+                 {
+                     "id":  "lazer",
+                     "name":  "Lazer",
+                     "color":  "#10b981",
+                     "budget":  80,
+                     "kind":  "out"
+                 },
+                 {
+                     "id":  "estudos",
+                     "name":  "Estudos",
+                     "color":  "#14b8a6",
+                     "budget":  40,
+                     "kind":  "out"
+                 },
+                 {
+                     "id":  "saude",
+                     "name":  "Saúde",
+                     "color":  "#ef4444",
+                     "budget":  30,
+                     "kind":  "out"
+                 },
+                 {
+                     "id":  "compras",
+                     "name":  "Compras",
+                     "color":  "#f97316",
+                     "budget":  50,
+                     "kind":  "out"
+                 },
+                 {
+                     "id":  "outros",
+                     "name":  "Outros",
+                     "color":  "#94a3b8",
+                     "budget":  40,
+                     "kind":  "out"
+                 },
+                 {
+                     "id":  "aux",
+                     "name":  "Auxílio estudantil",
+                     "color":  "#16a34a",
+                     "budget":  0,
+                     "kind":  "in"
+                 },
+                 {
+                     "id":  "pais",
+                     "name":  "Ajuda dos pais",
+                     "color":  "#22c55e",
+                     "budget":  0,
+                     "kind":  "in"
+                 },
+                 {
+                     "id":  "cobr",
+                     "name":  "Cobranças (amigos)",
+                     "color":  "#84cc16",
+                     "budget":  0,
+                     "kind":  "in"
+                 },
+                 {
+                     "id":  "extra",
+                     "name":  "Outras receitas",
+                     "color":  "#65a30d",
+                     "budget":  0,
+                     "kind":  "in"
+                 },
+                 {
+                     "id":  "pixcred",
+                     "name":  "Pix no crédito (parcelas)",
+                     "color":  "#a855f7",
+                     "budget":  0,
+                     "kind":  "out"
+                 }
+             ],
+    "cards":  [
+                  {
+                      "id":  "bradesco",
+                      "name":  "Crédito Bradesco",
+                      "limit":  15500,
+                      "closeDay":  13,
+                      "payAfter":  0,
+                      "closings":  {
+                                       "2026-10":  "2026-09-29",
+                                       "2026-11":  "2026-10-29",
+                                       "2026-12":  "2026-12-04"
+                                   }
+                  },
+                  {
+                      "id":  "nubank",
+                      "name":  "Crédito Nubank",
+                      "limit":  3300,
+                      "closeDay":  11,
+                      "payAfter":  0,
+                      "closings":  {
+                                       "2026-10":  "2026-10-04",
+                                       "2026-11":  "2026-11-04",
+                                       "2026-12":  "2026-12-04"
+                                   }
+                  },
+                  {
+                      "id":  "marcio",
+                      "name":  "Cartão Black Samsung",
+                      "limit":  3500,
+                      "closeDay":  20,
+                      "payAfter":  0
+                  }
+              ],
+    "tx":  [
+               {
+                   "id":  "g61xsxc",
+                   "type":  "in",
+                   "amount":  815,
+                   "desc":  "Auxílio estudantil",
+                   "cat":  "aux",
+                   "method":  "pix",
+                   "date":  "2026-10-05",
+                   "rec":  true
+               },
+               {
+                   "id":  "juokxnx",
+                   "type":  "in",
+                   "amount":  700,
+                   "desc":  "Ajuda dos pais",
+                   "cat":  "pais",
+                   "method":  "pix",
+                   "date":  "2026-10-05",
+                   "rec":  true
+               },
+               {
+                   "id":  "mbzm3o7",
+                   "type":  "out",
+                   "amount":  10.7,
+                   "desc":  "99",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-09-29"
+               },
+               {
+                   "id":  "2w5792m",
+                   "type":  "out",
+                   "amount":  9.6,
+                   "desc":  "99",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-09-30"
+               },
+               {
+                   "id":  "e777jjd",
+                   "type":  "out",
+                   "amount":  9.5,
+                   "desc":  "99",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-09-30"
+               },
+               {
+                   "id":  "f3qimpm",
+                   "type":  "out",
+                   "amount":  10.8,
+                   "desc":  "99",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-09-30"
+               },
+               {
+                   "id":  "mazqku4",
+                   "type":  "out",
+                   "amount":  11.8,
+                   "desc":  "99",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-01"
+               },
+               {
+                   "id":  "13ou1ln",
+                   "type":  "out",
+                   "amount":  13.9,
+                   "desc":  "99",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-01"
+               },
+               {
+                   "id":  "8oefdmg",
+                   "type":  "out",
+                   "amount":  12.8,
+                   "desc":  "99",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-01"
+               },
+               {
+                   "id":  "jrw0srb",
+                   "type":  "out",
+                   "amount":  24.8,
+                   "desc":  "Biscoito Bauducco",
+                   "cat":  "alim",
+                   "method":  "bradesco",
+                   "date":  "2026-10-02"
+               },
+               {
+                   "id":  "h6hybsc",
+                   "type":  "out",
+                   "amount":  19.9,
+                   "desc":  "Amazon Prime",
+                   "cat":  "assin",
+                   "method":  "bradesco",
+                   "date":  "2026-10-02",
+                   "rec":  true
+               },
+               {
+                   "id":  "uiu1i71",
+                   "type":  "out",
+                   "amount":  11.9,
+                   "desc":  "99",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-02"
+               },
+               {
+                   "id":  "4aves3i",
+                   "type":  "out",
+                   "amount":  46.5,
+                   "desc":  "Esquina do Herbie",
+                   "cat":  "alim",
+                   "method":  "bradesco",
+                   "date":  "2026-10-02"
+               },
+               {
+                   "id":  "qdhwzx2",
+                   "type":  "out",
+                   "amount":  12.8,
+                   "desc":  "99",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-03"
+               },
+               {
+                   "id":  "kzzcf2o",
+                   "type":  "out",
+                   "amount":  12.8,
+                   "desc":  "99",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-05"
+               },
+               {
+                   "id":  "c1fcuph",
+                   "type":  "out",
+                   "amount":  12.8,
+                   "desc":  "99",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-05"
+               },
+               {
+                   "id":  "izxfymw",
+                   "type":  "out",
+                   "amount":  15.4,
+                   "desc":  "99",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-05"
+               },
+               {
+                   "id":  "nx0sfqc",
+                   "type":  "out",
+                   "amount":  7.94,
+                   "desc":  "Uber",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-06"
+               },
+               {
+                   "id":  "akj9enw",
+                   "type":  "out",
+                   "amount":  12.95,
+                   "desc":  "Uber",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-06"
+               },
+               {
+                   "id":  "crm0xa2",
+                   "type":  "out",
+                   "amount":  37.17,
+                   "desc":  "Bauducco",
+                   "cat":  "alim",
+                   "method":  "bradesco",
+                   "date":  "2026-10-06"
+               },
+               {
+                   "id":  "9zexah5",
+                   "type":  "out",
+                   "amount":  12.97,
+                   "desc":  "Uber",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-06"
+               },
+               {
+                   "id":  "eo9hxth",
+                   "type":  "out",
+                   "amount":  12.5,
+                   "desc":  "Bate Bola",
+                   "cat":  "alim",
+                   "method":  "bradesco",
+                   "date":  "2026-10-07"
+               },
+               {
+                   "id":  "rqdwqzi",
+                   "type":  "out",
+                   "amount":  9.99,
+                   "desc":  "Uber",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-07"
+               },
+               {
+                   "id":  "1zn1os7",
+                   "type":  "out",
+                   "amount":  36.99,
+                   "desc":  "Amazon",
+                   "cat":  "compras",
+                   "method":  "bradesco",
+                   "date":  "2026-10-09"
+               },
+               {
+                   "id":  "8tjgj9w",
+                   "type":  "out",
+                   "amount":  3.57,
+                   "desc":  "Amazon (adicional)",
+                   "cat":  "compras",
+                   "method":  "bradesco",
+                   "date":  "2026-10-09"
+               },
+               {
+                   "id":  "unyvfs6",
+                   "type":  "out",
+                   "amount":  56.9,
+                   "desc":  "Mercado Livre (almofada do fone)",
+                   "cat":  "compras",
+                   "method":  "bradesco",
+                   "date":  "2026-10-11"
+               },
+               {
+                   "id":  "8hsbkpe",
+                   "type":  "out",
+                   "amount":  18.72,
+                   "desc":  "Claro Móvel",
+                   "cat":  "tel",
+                   "method":  "bradesco",
+                   "date":  "2026-10-13",
+                   "rec":  true
+               },
+               {
+                   "id":  "1qnzxpo",
+                   "type":  "out",
+                   "amount":  113.85,
+                   "desc":  "Claude Pro (Anthropic) — 110,00 + 3,85",
+                   "cat":  "assin",
+                   "method":  "bradesco",
+                   "date":  "2026-10-15",
+                   "rec":  true
+               },
+               {
+                   "id":  "x3zjssv",
+                   "type":  "out",
+                   "amount":  30,
+                   "desc":  "Loja01",
+                   "cat":  "compras",
+                   "method":  "bradesco",
+                   "date":  "2026-10-16"
+               },
+               {
+                   "id":  "jqkn47k",
+                   "type":  "out",
+                   "amount":  93.99,
+                   "desc":  "Pratika.ai",
+                   "cat":  "estudos",
+                   "method":  "bradesco",
+                   "date":  "2026-10-16"
+               },
+               {
+                   "id":  "fpc1xzw",
+                   "type":  "out",
+                   "amount":  32,
+                   "desc":  "Mister Dog",
+                   "cat":  "alim",
+                   "method":  "bradesco",
+                   "date":  "2026-10-17"
+               },
+               {
+                   "id":  "moq161z",
+                   "type":  "out",
+                   "amount":  32.94,
+                   "desc":  "99 Food",
+                   "cat":  "alim",
+                   "method":  "bradesco",
+                   "date":  "2026-10-18"
+               },
+               {
+                   "id":  "u3x5epw",
+                   "type":  "out",
+                   "amount":  10.99,
+                   "desc":  "Uber",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-18"
+               },
+               {
+                   "id":  "r2lqjr2",
+                   "type":  "out",
+                   "amount":  7.95,
+                   "desc":  "Clube iFood",
+                   "cat":  "assin",
+                   "method":  "bradesco",
+                   "date":  "2026-10-18"
+               },
+               {
+                   "id":  "uywgg6b",
+                   "type":  "out",
+                   "amount":  9.94,
+                   "desc":  "Uber",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-22"
+               },
+               {
+                   "id":  "xk8qvsz",
+                   "type":  "out",
+                   "amount":  14.3,
+                   "desc":  "SP Drive",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-23"
+               },
+               {
+                   "id":  "vagq1k1",
+                   "type":  "out",
+                   "amount":  21.95,
+                   "desc":  "Uber",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-23"
+               },
+               {
+                   "id":  "vf2t5hh",
+                   "type":  "out",
+                   "amount":  94.6,
+                   "desc":  "FULS 130",
+                   "cat":  "outros",
+                   "method":  "bradesco",
+                   "date":  "2026-10-23"
+               },
+               {
+                   "id":  "p29st9h",
+                   "type":  "out",
+                   "amount":  22.9,
+                   "desc":  "Globoplay (8/12)",
+                   "cat":  "assin",
+                   "method":  "bradesco",
+                   "date":  "2026-10-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "g9rav5l",
+                                "n":  8,
+                                "t":  12
+                            }
+               },
+               {
+                   "id":  "1qkun4l",
+                   "type":  "out",
+                   "amount":  22.9,
+                   "desc":  "Globoplay (9/12)",
+                   "cat":  "assin",
+                   "method":  "bradesco",
+                   "date":  "2026-11-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "g9rav5l",
+                                "n":  9,
+                                "t":  12
+                            }
+               },
+               {
+                   "id":  "n2z9s2r",
+                   "type":  "out",
+                   "amount":  22.9,
+                   "desc":  "Globoplay (10/12)",
+                   "cat":  "assin",
+                   "method":  "bradesco",
+                   "date":  "2026-12-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "g9rav5l",
+                                "n":  10,
+                                "t":  12
+                            }
+               },
+               {
+                   "id":  "i0ukwpq",
+                   "type":  "out",
+                   "amount":  22.9,
+                   "desc":  "Globoplay (11/12)",
+                   "cat":  "assin",
+                   "method":  "bradesco",
+                   "date":  "2027-01-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "g9rav5l",
+                                "n":  11,
+                                "t":  12
+                            }
+               },
+               {
+                   "id":  "alpqx2u",
+                   "type":  "out",
+                   "amount":  22.9,
+                   "desc":  "Globoplay (12/12)",
+                   "cat":  "assin",
+                   "method":  "bradesco",
+                   "date":  "2027-02-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "g9rav5l",
+                                "n":  12,
+                                "t":  12
+                            }
+               },
+               {
+                   "id":  "tftd5nk",
+                   "type":  "out",
+                   "amount":  100.84,
+                   "desc":  "Magalu (Kindle) (7/10)",
+                   "cat":  "compras",
+                   "method":  "bradesco",
+                   "date":  "2026-10-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "vmtwray",
+                                "n":  7,
+                                "t":  10
+                            }
+               },
+               {
+                   "id":  "ggyrhpl",
+                   "type":  "out",
+                   "amount":  100.84,
+                   "desc":  "Magalu (Kindle) (8/10)",
+                   "cat":  "compras",
+                   "method":  "bradesco",
+                   "date":  "2026-11-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "vmtwray",
+                                "n":  8,
+                                "t":  10
+                            }
+               },
+               {
+                   "id":  "jrbwitm",
+                   "type":  "out",
+                   "amount":  100.84,
+                   "desc":  "Magalu (Kindle) (9/10)",
+                   "cat":  "compras",
+                   "method":  "bradesco",
+                   "date":  "2026-12-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "vmtwray",
+                                "n":  9,
+                                "t":  10
+                            }
+               },
+               {
+                   "id":  "ailaw4n",
+                   "type":  "out",
+                   "amount":  100.84,
+                   "desc":  "Magalu (Kindle) (10/10)",
+                   "cat":  "compras",
+                   "method":  "bradesco",
+                   "date":  "2027-01-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "vmtwray",
+                                "n":  10,
+                                "t":  10
+                            }
+               },
+               {
+                   "id":  "q9xu0j4",
+                   "type":  "out",
+                   "amount":  53.33,
+                   "desc":  "Ingresse (Inter Unesp) (5/6)",
+                   "cat":  "lazer",
+                   "method":  "bradesco",
+                   "date":  "2026-10-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "hq8udtg",
+                                "n":  5,
+                                "t":  6
+                            }
+               },
+               {
+                   "id":  "ixa491e",
+                   "type":  "out",
+                   "amount":  53.33,
+                   "desc":  "Ingresse (Inter Unesp) (6/6)",
+                   "cat":  "lazer",
+                   "method":  "bradesco",
+                   "date":  "2026-11-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "hq8udtg",
+                                "n":  6,
+                                "t":  6
+                            }
+               },
+               {
+                   "id":  "s1iqdhn",
+                   "type":  "out",
+                   "amount":  59.99,
+                   "desc":  "Polo Wear Bauru (2/3)",
+                   "cat":  "compras",
+                   "method":  "bradesco",
+                   "date":  "2026-10-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "bjhl6ah",
+                                "n":  2,
+                                "t":  3
+                            }
+               },
+               {
+                   "id":  "oaudxt9",
+                   "type":  "out",
+                   "amount":  59.99,
+                   "desc":  "Polo Wear Bauru (3/3)",
+                   "cat":  "compras",
+                   "method":  "bradesco",
+                   "date":  "2026-11-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "bjhl6ah",
+                                "n":  3,
+                                "t":  3
+                            }
+               },
+               {
+                   "id":  "xfyuo03",
+                   "type":  "out",
+                   "amount":  47.63,
+                   "desc":  "ENEJ 2026 (2/2)",
+                   "cat":  "estudos",
+                   "method":  "bradesco",
+                   "date":  "2026-10-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "mkm4stz",
+                                "n":  2,
+                                "t":  2
+                            }
+               },
+               {
+                   "id":  "ft65d3x",
+                   "type":  "out",
+                   "amount":  29.67,
+                   "desc":  "Amazon (parcelado) (2/2)",
+                   "cat":  "compras",
+                   "method":  "bradesco",
+                   "date":  "2026-10-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "bvox8no",
+                                "n":  2,
+                                "t":  2
+                            }
+               },
+               {
+                   "id":  "1gvr3y4",
+                   "type":  "out",
+                   "amount":  422.29,
+                   "desc":  "Tomorrowland Brasil (abr/2027) (2/10)",
+                   "cat":  "lazer",
+                   "method":  "bradesco",
+                   "date":  "2026-10-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "i9er0wk",
+                                "n":  2,
+                                "t":  10
+                            }
+               },
+               {
+                   "id":  "re05nl9",
+                   "type":  "out",
+                   "amount":  422.29,
+                   "desc":  "Tomorrowland Brasil (abr/2027) (3/10)",
+                   "cat":  "lazer",
+                   "method":  "bradesco",
+                   "date":  "2026-11-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "i9er0wk",
+                                "n":  3,
+                                "t":  10
+                            }
+               },
+               {
+                   "id":  "nl9g4n5",
+                   "type":  "out",
+                   "amount":  422.29,
+                   "desc":  "Tomorrowland Brasil (abr/2027) (4/10)",
+                   "cat":  "lazer",
+                   "method":  "bradesco",
+                   "date":  "2026-12-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "i9er0wk",
+                                "n":  4,
+                                "t":  10
+                            }
+               },
+               {
+                   "id":  "sccuh82",
+                   "type":  "out",
+                   "amount":  422.29,
+                   "desc":  "Tomorrowland Brasil (abr/2027) (5/10)",
+                   "cat":  "lazer",
+                   "method":  "bradesco",
+                   "date":  "2027-01-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "i9er0wk",
+                                "n":  5,
+                                "t":  10
+                            }
+               },
+               {
+                   "id":  "g2c88ck",
+                   "type":  "out",
+                   "amount":  422.29,
+                   "desc":  "Tomorrowland Brasil (abr/2027) (6/10)",
+                   "cat":  "lazer",
+                   "method":  "bradesco",
+                   "date":  "2027-02-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "i9er0wk",
+                                "n":  6,
+                                "t":  10
+                            }
+               },
+               {
+                   "id":  "otzvzj9",
+                   "type":  "out",
+                   "amount":  422.29,
+                   "desc":  "Tomorrowland Brasil (abr/2027) (7/10)",
+                   "cat":  "lazer",
+                   "method":  "bradesco",
+                   "date":  "2027-03-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "i9er0wk",
+                                "n":  7,
+                                "t":  10
+                            }
+               },
+               {
+                   "id":  "ub8pssn",
+                   "type":  "out",
+                   "amount":  422.29,
+                   "desc":  "Tomorrowland Brasil (abr/2027) (8/10)",
+                   "cat":  "lazer",
+                   "method":  "bradesco",
+                   "date":  "2027-04-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "i9er0wk",
+                                "n":  8,
+                                "t":  10
+                            }
+               },
+               {
+                   "id":  "6i7avxi",
+                   "type":  "out",
+                   "amount":  422.29,
+                   "desc":  "Tomorrowland Brasil (abr/2027) (9/10)",
+                   "cat":  "lazer",
+                   "method":  "bradesco",
+                   "date":  "2027-05-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "i9er0wk",
+                                "n":  9,
+                                "t":  10
+                            }
+               },
+               {
+                   "id":  "txc8nd4",
+                   "type":  "out",
+                   "amount":  422.29,
+                   "desc":  "Tomorrowland Brasil (abr/2027) (10/10)",
+                   "cat":  "lazer",
+                   "method":  "bradesco",
+                   "date":  "2027-06-13",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "i9er0wk",
+                                "n":  10,
+                                "t":  10
+                            }
+               },
+               {
+                   "type":  "out",
+                   "amount":  28,
+                   "desc":  "Bla bla Car (volta para Bauru) ",
+                   "cat":  "transp",
+                   "method":  "pix",
+                   "date":  "2026-10-25",
+                   "id":  "kfghcbi"
+               },
+               {
+                   "type":  "out",
+                   "amount":  13.48,
+                   "desc":  "99 (uber) ",
+                   "cat":  "transp",
+                   "method":  "marcio",
+                   "date":  "2026-10-25",
+                   "id":  "6mcgm5b"
+               },
+               {
+                   "type":  "out",
+                   "amount":  50,
+                   "desc":  "Reabastecimento do cartão Transubr",
+                   "cat":  "transp",
+                   "method":  "dinheiro",
+                   "date":  "2026-10-26",
+                   "id":  "bnarz59"
+               },
+               {
+                   "type":  "out",
+                   "amount":  10.8,
+                   "desc":  "UBER (ida para unesp no almoço) ",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-27",
+                   "id":  "rkzp78j"
+               },
+               {
+                   "type":  "in",
+                   "amount":  5.4,
+                   "desc":  "Pix Noronha ",
+                   "cat":  "cobr",
+                   "method":  "pix",
+                   "date":  "2026-10-27",
+                   "id":  "8i8p9g3"
+               },
+               {
+                   "type":  "out",
+                   "amount":  11.2,
+                   "desc":  "Fut quarta (bate bola ) ",
+                   "cat":  "lazer",
+                   "method":  "bradesco",
+                   "date":  "2026-10-28",
+                   "id":  "ifnx9op"
+               },
+               {
+                   "id":  "jazva9k",
+                   "type":  "out",
+                   "amount":  31.9,
+                   "desc":  "Spotify Duo",
+                   "cat":  "assin",
+                   "method":  "nubank",
+                   "date":  "2026-10-10",
+                   "rec":  true
+               },
+               {
+                   "id":  "vzm5qtl",
+                   "type":  "out",
+                   "amount":  44.9,
+                   "desc":  "Netflix",
+                   "cat":  "assin",
+                   "method":  "nubank",
+                   "date":  "2026-10-10",
+                   "rec":  true
+               },
+               {
+                   "id":  "5lm7rli",
+                   "type":  "out",
+                   "amount":  49.99,
+                   "desc":  "Google One",
+                   "cat":  "assin",
+                   "method":  "nubank",
+                   "date":  "2026-10-10",
+                   "rec":  true
+               },
+               {
+                   "id":  "36krji4",
+                   "type":  "out",
+                   "amount":  5.9,
+                   "desc":  "iCloud",
+                   "cat":  "assin",
+                   "method":  "nubank",
+                   "date":  "2026-10-10",
+                   "rec":  true
+               },
+               {
+                   "type":  "out",
+                   "amount":  35,
+                   "desc":  "Apoio de pé ergonômico (Amazon) - compra online ",
+                   "cat":  "estudos",
+                   "method":  "bradesco",
+                   "date":  "2026-10-29",
+                   "id":  "sq8l55u"
+               },
+               {
+                   "type":  "in",
+                   "amount":  200,
+                   "desc":  "",
+                   "cat":  "extra",
+                   "method":  "pix",
+                   "date":  "2026-10-29",
+                   "id":  "y4hztna"
+               },
+               {
+                   "type":  "in",
+                   "amount":  500,
+                   "desc":  "Pix Márcio (pagar Tomorrowland) ",
+                   "cat":  "extra",
+                   "method":  "pix",
+                   "date":  "2026-10-13",
+                   "id":  "goybsa5"
+               },
+               {
+                   "id":  "2e1r6h2",
+                   "type":  "out",
+                   "amount":  750,
+                   "desc":  "Aluguel + energia + condomínio",
+                   "cat":  "moradia",
+                   "method":  "pix",
+                   "date":  "2026-10-20",
+                   "rec":  true
+               },
+               {
+                   "id":  "tcp9gtf",
+                   "type":  "out",
+                   "amount":  115,
+                   "desc":  "ChatGPT Plus",
+                   "cat":  "assin",
+                   "method":  "bradesco",
+                   "date":  "2026-10-10",
+                   "rec":  true
+               },
+               {
+                   "type":  "out",
+                   "amount":  39.9,
+                   "desc":  "UBER (volta da chácara) ",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-31",
+                   "id":  "wfdr31x"
+               },
+               {
+                   "type":  "out",
+                   "amount":  9.9,
+                   "desc":  "99 Uber ( Ida até a Naja) ",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-10-31",
+                   "id":  "m0dlgfo"
+               },
+               {
+                   "id":  "8yxmm2x",
+                   "type":  "in",
+                   "amount":  16,
+                   "desc":  "Claude — Clara",
+                   "cat":  "cobr",
+                   "method":  "pix",
+                   "date":  "2026-10-10",
+                   "rec":  true
+               },
+               {
+                   "type":  "out",
+                   "amount":  10.9,
+                   "desc":  "99 Uber (Até a Naja)",
+                   "cat":  "transp",
+                   "method":  "marcio",
+                   "date":  "2026-11-01",
+                   "id":  "963jqzx"
+               },
+               {
+                   "type":  "out",
+                   "amount":  10.1,
+                   "desc":  "99 (uber) - Churras naja ",
+                   "cat":  "transp",
+                   "method":  "marcio",
+                   "date":  "2026-11-02",
+                   "id":  "nh86xx1"
+               },
+               {
+                   "type":  "out",
+                   "amount":  91.68,
+                   "desc":  "Pizza (borda e lenha) ",
+                   "cat":  "alim",
+                   "method":  "marcio",
+                   "date":  "2026-11-03",
+                   "id":  "co040wc"
+               },
+               {
+                   "id":  "g3rti6t",
+                   "type":  "in",
+                   "amount":  16,
+                   "desc":  "Claude — Clara",
+                   "cat":  "cobr",
+                   "method":  "pix",
+                   "date":  "2026-11-04",
+                   "rec":  true
+               },
+               {
+                   "type":  "out",
+                   "amount":  7.9,
+                   "desc":  "99 (Uber) ",
+                   "cat":  "transp",
+                   "method":  "marcio",
+                   "date":  "2026-11-04",
+                   "id":  "ovvi1qq"
+               },
+               {
+                   "id":  "wgz3cd0",
+                   "type":  "in",
+                   "amount":  500,
+                   "desc":  "Marcio ",
+                   "cat":  "extra",
+                   "method":  "pix",
+                   "date":  "2026-11-10",
+                   "rec":  true
+               },
+               {
+                   "id":  "gcht7d1",
+                   "type":  "in",
+                   "amount":  500,
+                   "desc":  "Marcio ",
+                   "cat":  "extra",
+                   "method":  "pix",
+                   "date":  "2026-10-10",
+                   "rec":  true
+               },
+               {
+                   "type":  "out",
+                   "amount":  14.5,
+                   "desc":  "99 (uber) - Bendito santo ",
+                   "cat":  "transp",
+                   "method":  "marcio",
+                   "date":  "2026-11-05",
+                   "id":  "qad7geq"
+               },
+               {
+                   "type":  "out",
+                   "amount":  16.5,
+                   "desc":  "99 (Uber) - Volta para casa ",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-11-05",
+                   "id":  "185fwds"
+               },
+               {
+                   "type":  "out",
+                   "amount":  8.4,
+                   "desc":  "99 (Uber) - Cantina da FEB (SIMPEP)",
+                   "cat":  "transp",
+                   "method":  "bradesco",
+                   "date":  "2026-11-06",
+                   "id":  "xfou4j7"
+               },
+               {
+                   "id":  "y7hhmll",
+                   "type":  "in",
+                   "amount":  15,
+                   "desc":  "ChatGPT — João Pedro",
+                   "cat":  "cobr",
+                   "method":  "pix",
+                   "date":  "2026-11-06",
+                   "rec":  true
+               },
+               {
+                   "type":  "out",
+                   "amount":  7.5,
+                   "desc":  "99 Uber (ida para sabatina) ",
+                   "cat":  "transp",
+                   "method":  "marcio",
+                   "date":  "2026-11-07",
+                   "id":  "ivw0t26"
+               },
+               {
+                   "type":  "out",
+                   "amount":  15.5,
+                   "desc":  "99 Uber (volta da sabatina) ",
+                   "cat":  "transp",
+                   "method":  "marcio",
+                   "date":  "2026-11-07",
+                   "id":  "rmpj51l"
+               },
+               {
+                   "id":  "o1ia5pu",
+                   "type":  "in",
+                   "amount":  700,
+                   "desc":  "Ajuda dos pais",
+                   "cat":  "pais",
+                   "method":  "pix",
+                   "date":  "2026-11-05",
+                   "rec":  true
+               },
+               {
+                   "id":  "kblsyl5",
+                   "type":  "in",
+                   "amount":  16,
+                   "desc":  "Claude — Luis Henrique (DG)",
+                   "cat":  "cobr",
+                   "method":  "pix",
+                   "date":  "2026-11-09",
+                   "rec":  true
+               },
+               {
+                   "id":  "nj9mrd5",
+                   "type":  "in",
+                   "amount":  815,
+                   "desc":  "Auxílio estudantil",
+                   "cat":  "aux",
+                   "method":  "pix",
+                   "date":  "2026-11-05",
+                   "rec":  true
+               },
+               {
+                   "id":  "448seas",
+                   "type":  "in",
+                   "amount":  15,
+                   "desc":  "ChatGPT — Futuro",
+                   "cat":  "cobr",
+                   "method":  "pix",
+                   "date":  "2026-11-10",
+                   "rec":  true
+               },
+               {
+                   "id":  "sq5qlom",
+                   "type":  "in",
+                   "amount":  16,
+                   "desc":  "Claude — Lucas Noronha",
+                   "cat":  "cobr",
+                   "method":  "pix",
+                   "date":  "2026-11-10",
+                   "rec":  true
+               },
+               {
+                   "id":  "26wk49l",
+                   "type":  "out",
+                   "amount":  115,
+                   "desc":  "ChatGPT Plus",
+                   "cat":  "assin",
+                   "method":  "bradesco",
+                   "date":  "2026-11-10",
+                   "rec":  true
+               },
+               {
+                   "id":  "jxj2zzp",
+                   "type":  "out",
+                   "amount":  110,
+                   "desc":  "Claude Pro",
+                   "cat":  "assin",
+                   "method":  "bradesco",
+                   "date":  "2026-11-15",
+                   "rec":  true
+               },
+               {
+                   "id":  "gvj8kcy",
+                   "type":  "out",
+                   "amount":  52.9,
+                   "desc":  "Claro Móvel",
+                   "cat":  "tel",
+                   "method":  "bradesco",
+                   "date":  "2026-11-13",
+                   "rec":  true
+               },
+               {
+                   "id":  "ykqawvj",
+                   "type":  "out",
+                   "amount":  49.99,
+                   "desc":  "Google One",
+                   "cat":  "assin",
+                   "method":  "nubank",
+                   "date":  "2026-11-10",
+                   "rec":  true
+               },
+               {
+                   "id":  "tnzckkb",
+                   "type":  "out",
+                   "amount":  19.9,
+                   "desc":  "Amazon Prime",
+                   "cat":  "assin",
+                   "method":  "bradesco",
+                   "date":  "2026-11-02",
+                   "rec":  true
+               },
+               {
+                   "id":  "7dqchdc",
+                   "type":  "out",
+                   "amount":  5.9,
+                   "desc":  "iCloud",
+                   "cat":  "assin",
+                   "method":  "nubank",
+                   "date":  "2026-11-10",
+                   "rec":  true
+               },
+               {
+                   "id":  "zvtvvxm",
+                   "type":  "out",
+                   "amount":  31.9,
+                   "desc":  "Spotify Duo",
+                   "cat":  "assin",
+                   "method":  "nubank",
+                   "date":  "2026-11-10",
+                   "rec":  true
+               },
+               {
+                   "id":  "iniaro9",
+                   "type":  "out",
+                   "amount":  44.9,
+                   "desc":  "Netflix",
+                   "cat":  "assin",
+                   "method":  "nubank",
+                   "date":  "2026-11-10",
+                   "rec":  true
+               },
+               {
+                   "id":  "pixnu011",
+                   "type":  "out",
+                   "amount":  89.34,
+                   "desc":  "Pix no crédito (1/2)",
+                   "cat":  "pixcred",
+                   "method":  "nubank",
+                   "date":  "2026-10-11",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "pixnu01",
+                                "n":  1,
+                                "t":  2
+                            }
+               },
+               {
+                   "id":  "pixnu012",
+                   "type":  "out",
+                   "amount":  89.34,
+                   "desc":  "Pix no crédito (2/2)",
+                   "cat":  "pixcred",
+                   "method":  "nubank",
+                   "date":  "2026-11-11",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "pixnu01",
+                                "n":  2,
+                                "t":  2
+                            }
+               },
+               {
+                   "id":  "pixnu021",
+                   "type":  "out",
+                   "amount":  44.41,
+                   "desc":  "Limite convertido em saldo (1/3)",
+                   "cat":  "pixcred",
+                   "method":  "nubank",
+                   "date":  "2026-11-11",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "pixnu02",
+                                "n":  1,
+                                "t":  3
+                            }
+               },
+               {
+                   "id":  "pixnu022",
+                   "type":  "out",
+                   "amount":  44.41,
+                   "desc":  "Limite convertido em saldo (2/3)",
+                   "cat":  "pixcred",
+                   "method":  "nubank",
+                   "date":  "2026-12-11",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "pixnu02",
+                                "n":  2,
+                                "t":  3
+                            }
+               },
+               {
+                   "id":  "pixnu023",
+                   "type":  "out",
+                   "amount":  44.41,
+                   "desc":  "Limite convertido em saldo (3/3)",
+                   "cat":  "pixcred",
+                   "method":  "nubank",
+                   "date":  "2027-01-11",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "pixnu02",
+                                "n":  3,
+                                "t":  3
+                            }
+               },
+               {
+                   "id":  "pixnu031",
+                   "type":  "out",
+                   "amount":  27.09,
+                   "desc":  "Limite convertido em saldo (1/2)",
+                   "cat":  "pixcred",
+                   "method":  "nubank",
+                   "date":  "2026-11-11",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "pixnu03",
+                                "n":  1,
+                                "t":  2
+                            }
+               },
+               {
+                   "id":  "pixnu032",
+                   "type":  "out",
+                   "amount":  27.09,
+                   "desc":  "Limite convertido em saldo (2/2)",
+                   "cat":  "pixcred",
+                   "method":  "nubank",
+                   "date":  "2026-12-11",
+                   "rec":  true,
+                   "inst":  {
+                                "p":  "pixnu03",
+                                "n":  2,
+                                "t":  2
+                            }
+               }
+           ],
+    "rec":  [
+                {
+                    "id":  "u14k7qg",
+                    "type":  "in",
+                    "name":  "Auxílio estudantil",
+                    "amount":  815,
+                    "day":  5,
+                    "cat":  "aux",
+                    "method":  "pix"
+                },
+                {
+                    "id":  "og5u9uu",
+                    "type":  "in",
+                    "name":  "Ajuda dos pais",
+                    "amount":  700,
+                    "day":  5,
+                    "cat":  "pais",
+                    "method":  "pix"
+                },
+                {
+                    "id":  "bio9p85",
+                    "type":  "out",
+                    "name":  "Aluguel + energia + condomínio",
+                    "amount":  750,
+                    "day":  20,
+                    "cat":  "moradia",
+                    "method":  "pix"
+                },
+                {
+                    "id":  "5muxozq",
+                    "type":  "out",
+                    "name":  "Netflix",
+                    "amount":  44.9,
+                    "day":  10,
+                    "cat":  "assin",
+                    "method":  "nubank"
+                },
+                {
+                    "id":  "nuv0vpj",
+                    "type":  "out",
+                    "name":  "Spotify Duo",
+                    "amount":  31.9,
+                    "day":  10,
+                    "cat":  "assin",
+                    "method":  "nubank"
+                },
+                {
+                    "id":  "cmt51p5",
+                    "type":  "out",
+                    "name":  "Amazon Prime",
+                    "amount":  19.9,
+                    "day":  2,
+                    "cat":  "assin",
+                    "method":  "bradesco"
+                },
+                {
+                    "id":  "3ndvf82",
+                    "type":  "out",
+                    "name":  "Claro Móvel",
+                    "amount":  52.9,
+                    "day":  13,
+                    "cat":  "tel",
+                    "method":  "bradesco"
+                },
+                {
+                    "id":  "2i5vs2e",
+                    "type":  "out",
+                    "name":  "Claude Pro",
+                    "amount":  110,
+                    "day":  15,
+                    "cat":  "assin",
+                    "method":  "bradesco"
+                },
+                {
+                    "id":  "zsmv30s",
+                    "type":  "out",
+                    "name":  "ChatGPT Plus",
+                    "amount":  115,
+                    "day":  10,
+                    "cat":  "assin",
+                    "method":  "bradesco"
+                },
+                {
+                    "id":  "sagnnbh",
+                    "type":  "out",
+                    "day":  10,
+                    "cat":  "assin",
+                    "name":  "iCloud",
+                    "amount":  5.9,
+                    "method":  "nubank"
+                },
+                {
+                    "id":  "6ty212s",
+                    "type":  "out",
+                    "day":  10,
+                    "cat":  "assin",
+                    "name":  "Google One",
+                    "amount":  49.99,
+                    "method":  "nubank"
+                },
+                {
+                    "name":  "Marcio ",
+                    "amount":  500,
+                    "day":  10,
+                    "cat":  "extra",
+                    "method":  "pix",
+                    "id":  "0nf7b5w",
+                    "type":  "in"
+                }
+            ],
+    "recv":  [
+                 {
+                     "id":  "1n5jej3",
+                     "person":  "Pablo (Traira)",
+                     "service":  "ChatGPT",
+                     "amount":  15
+                 },
+                 {
+                     "id":  "aqvmbga",
+                     "person":  "Futuro",
+                     "service":  "ChatGPT",
+                     "amount":  15
+                 },
+                 {
+                     "id":  "g01zj5u",
+                     "person":  "Brito",
+                     "service":  "ChatGPT",
+                     "amount":  15
+                 },
+                 {
+                     "id":  "4jmpjs0",
+                     "person":  "Leo",
+                     "service":  "ChatGPT",
+                     "amount":  15
+                 },
+                 {
+                     "id":  "6ygpl7d",
+                     "person":  "Dudu (Casa do Construtor)",
+                     "service":  "ChatGPT",
+                     "amount":  15
+                 },
+                 {
+                     "id":  "hmh4mxz",
+                     "person":  "João Pedro",
+                     "service":  "ChatGPT",
+                     "amount":  15
+                 },
+                 {
+                     "id":  "ony9g6o",
+                     "person":  "Ian",
+                     "service":  "Claude",
+                     "amount":  16
+                 },
+                 {
+                     "id":  "a8vkddd",
+                     "person":  "Clara",
+                     "service":  "Claude",
+                     "amount":  16
+                 },
+                 {
+                     "id":  "4k5bjpm",
+                     "person":  "Lucas Noronha",
+                     "service":  "Claude",
+                     "amount":  16
+                 },
+                 {
+                     "id":  "q52pzbx",
+                     "person":  "Leo",
+                     "service":  "Claude",
+                     "amount":  16
+                 },
+                 {
+                     "id":  "mhj0dgp",
+                     "person":  "Dudu (Casa do Construtor)",
+                     "service":  "Claude",
+                     "amount":  16
+                 },
+                 {
+                     "id":  "q742w8u",
+                     "person":  "Luis Henrique (DG)",
+                     "service":  "Claude",
+                     "amount":  16
+                 }
+             ],
+    "paid":  {
+                 "2026-10":  {
+                                 "u14k7qg":  "g61xsxc",
+                                 "og5u9uu":  "juokxnx",
+                                 "cmt51p5":  "h6hybsc",
+                                 "3ndvf82":  "8hsbkpe",
+                                 "2i5vs2e":  "1qnzxpo",
+                                 "nuv0vpj":  "jazva9k",
+                                 "5muxozq":  "vzm5qtl",
+                                 "6ty212s":  "5lm7rli",
+                                 "sagnnbh":  "36krji4",
+                                 "bio9p85":  "2e1r6h2",
+                                 "zsmv30s":  "tcp9gtf",
+                                 "0nf7b5w":  "gcht7d1"
+                             },
+                 "2026-11":  {
+                                 "0nf7b5w":  "wgz3cd0",
+                                 "og5u9uu":  "o1ia5pu",
+                                 "u14k7qg":  "nj9mrd5",
+                                 "zsmv30s":  "26wk49l",
+                                 "2i5vs2e":  "jxj2zzp",
+                                 "3ndvf82":  "gvj8kcy",
+                                 "6ty212s":  "ykqawvj",
+                                 "cmt51p5":  "tnzckkb",
+                                 "sagnnbh":  "7dqchdc",
+                                 "nuv0vpj":  "zvtvvxm",
+                                 "5muxozq":  "iniaro9"
+                             }
+             },
+    "recvPaid":  {
+                     "2026-10":  {
+                                     "a8vkddd":  "8yxmm2x"
+                                 },
+                     "2026-11":  {
+                                     "a8vkddd":  "g3rti6t",
+                                     "hmh4mxz":  "y7hhmll",
+                                     "q742w8u":  "kblsyl5",
+                                     "aqvmbga":  "448seas",
+                                     "4k5bjpm":  "sq5qlom"
+                                 }
+                 },
+    "pix":  "51678712809",
+    "saving":  0,
+    "plans":  [
+                  {
+                      "id":  "g9rav5l",
+                      "name":  "Globoplay",
+                      "amount":  22.9,
+                      "total":  12,
+                      "card":  "bradesco",
+                      "cat":  "assin"
+                  },
+                  {
+                      "id":  "vmtwray",
+                      "name":  "Magalu (Kindle)",
+                      "amount":  100.84,
+                      "total":  10,
+                      "card":  "bradesco",
+                      "cat":  "compras"
+                  },
+                  {
+                      "id":  "hq8udtg",
+                      "name":  "Ingresse (Inter Unesp)",
+                      "amount":  53.33,
+                      "total":  6,
+                      "card":  "bradesco",
+                      "cat":  "lazer"
+                  },
+                  {
+                      "id":  "bjhl6ah",
+                      "name":  "Polo Wear Bauru",
+                      "amount":  59.99,
+                      "total":  3,
+                      "card":  "bradesco",
+                      "cat":  "compras"
+                  },
+                  {
+                      "id":  "mkm4stz",
+                      "name":  "ENEJ 2026",
+                      "amount":  47.63,
+                      "total":  2,
+                      "card":  "bradesco",
+                      "cat":  "estudos"
+                  },
+                  {
+                      "id":  "bvox8no",
+                      "name":  "Amazon (parcelado)",
+                      "amount":  29.67,
+                      "total":  2,
+                      "card":  "bradesco",
+                      "cat":  "compras"
+                  },
+                  {
+                      "id":  "i9er0wk",
+                      "name":  "Tomorrowland Brasil (abr/2027)",
+                      "amount":  422.29,
+                      "total":  10,
+                      "card":  "bradesco",
+                      "cat":  "lazer"
+                  },
+                  {
+                      "id":  "pixnu01",
+                      "name":  "Pix no crédito",
+                      "amount":  89.34,
+                      "total":  2,
+                      "card":  "nubank",
+                      "cat":  "pixcred",
+                      "pix":  true,
+                      "rcv":  160
+                  },
+                  {
+                      "id":  "pixnu02",
+                      "name":  "Limite convertido em saldo",
+                      "amount":  44.41,
+                      "total":  3,
+                      "card":  "nubank",
+                      "cat":  "pixcred",
+                      "pix":  true,
+                      "rcv":  null
+                  },
+                  {
+                      "id":  "pixnu03",
+                      "name":  "Limite convertido em saldo",
+                      "amount":  27.09,
+                      "total":  2,
+                      "card":  "nubank",
+                      "cat":  "pixcred",
+                      "pix":  true,
+                      "rcv":  null
+                  }
+              ],
+    "invPaid":  {
+                    "nubank:2026-11":  true
+                },
+    "v":  3
+}
